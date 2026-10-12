@@ -3,60 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="stylesheet" type="text/css" href="Homepage-style.css">
-    <title>Marvelous</title>
+    <meta name="description" content="Explore Marvel heroes, villains, and movies in the Marvelous MCU fan guide.">
+    <title>Marvelous | MCU Heroes, Villains &amp; Movies</title>
 </head>
 <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
     <header class="hero">
-        <nav class="topbar">
-            <span class="brand">MARVELOUS</span>
+        <nav class="topbar" aria-label="Main navigation">
+            <a class="brand" href="Homepage.html" aria-label="Marvelous home">MARVELOUS</a>
             <div class="nav-links">
-                <a href="#about">About</a>
-                <a href="#heroes">Heroes</a>
-                <a href="#watch">Watch</a>
+                <a href="Homepage.html#about" aria-current="page">Home</a>
+                <a href="heros.html">Heroes</a>
+                <a href="villians.html">Villains</a>
+                <a href="movies.html">Movies</a>
             </div>
         </nav>
 
         <div class="hero-banner">
             <div class="hero-overlay">
                 <h1>MARVELOUS</h1>
-                <h3>WELCOME</h3>
+                <p class="hero-subtitle">Welcome</p>
             </div>
         </div>
     </header>
 
-    <main>
+    <main id="main-content" tabindex="-1">
         <section class="container" id="about">
             <p class="left-text">
-                Hello my fellow MCU enthusiasts!!!<br>
+                Hello, fellow MCU enthusiasts!<br>
                 My name is Ethan Samples and if you're into Marvel superheroes and the movies
                 that surround them, then this is the perfect website for you! This website
                 will provide you the facts, origins, and everything you need to know about
                 Marvel's superheroes and the universe surrounding them. Marvel is an amazing
-                franchise that I am not taking credit for in the slightest. All I am doing is
-                directing you to their media. So if you haven't already, go watch some Marvel
+                franchise, and I do not claim ownership of it. I am simply directing you to
+                Marvel's media. If you haven't already, watch some Marvel
                 movies and enjoy my website!
             </p>
-            <img src="avengers.jpg" alt="A picture of the avengers" class="center">
+            <img src="avengers.jpg" alt="The Avengers assembled together in a team portrait." class="center">
         </section>
 
         <section class="feature-section" id="heroes">
             <h2>Featured Heroes</h2>
+            <p class="heroes-page-link"><a href="heros.html">Explore Marvel heroes</a></p>
             <div class="card-grid">
                 <article class="hero-card">
                     <span class="card-tag">Strength</span>
                     <h3>Hulk</h3>
-                    <p>Hes the green, incredible and invincible hulk and can smash anything in sight </p>
+                    <p>He's the green, incredible, and invincible Hulk, able to smash anything in sight.</p>
                 </article>
                 <article class="hero-card accent">
                     <span class="card-tag">Genius</span>
                     <h3>Iron Man</h3>
-                    <p>Hes a genius, billionaire, playboy and philanthropist</p>
+                    <p>He's a genius, billionaire, playboy, and philanthropist.</p>
                 </article>
                 <article class="hero-card">
                     <span class="card-tag">Agility</span>
                     <h3>Spider-Man</h3>
-                    <p>Hes spectacular and amazing and he has great power and responsibility</p>
+                    <p>He's spectacular and amazing, with great power and responsibility.</p>
                 </article>
             </div>
         </section>
@@ -77,22 +82,23 @@
                     <p>There is always another movie, hero, or team-up to discover and enjoy.</p>
                 </div>
             </div>
+            <p class="heroes-page-link marvel-link"><a href="https://www.marvel.com/" target="_blank" rel="noreferrer">More About Marvel</a></p>
         </section>
 
         <section class="movie-section">
-            <h2>Favorite Marvel Picks</h2>
+            <h2>Featured Marvel Movies</h2>
             <div class="movie-grid">
                 <article class="movie-card">
                     <h3>Avengers: Endgame</h3>
                     <p>The ultimate Marvel movie that brings the Infinity Saga to an unforgettable finish</p>
                 </article>
                 <article class="movie-card">
-                    <h3>Captian America: Civil War</h3>
-                    <p>A movie about betrayal and fighting against fellow heros</p>
+                    <h3>Captain America: Civil War</h3>
+                    <p>A movie about divided loyalties and conflict among former allies.</p>
                 </article>
                 <article class="movie-card">
                     <h3>Guardians of the Galaxy</h3>
-                    <p>A funny and mismached group of heros fighting to save the galixy</p>
+                    <p>A funny and mismatched group of heroes fighting to save the galaxy.</p>
                 </article>
             </div>
         </section>
